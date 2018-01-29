@@ -7,16 +7,45 @@
 }
 
 .btn-invert-slider {
-    background: transparent;
-    border-color: white;
+    background: transparent !important;
+    border-color: #bdd62e !important;
     color: white !important;
 }
 
 .btn-invert-slider:hover {
-    background-color: white;
-    color: black !important;
+    background-color: #bdd62e !important;
+    color: white !important;
+    border-color: #bdd62e !important;
 }
 
-.bg-transparent-important {
+.btn-kwanza-green {
+    background-color: #bdd62e !important;
+    border-color: #bdd62e !important; 
+}
+
+.btn-kwanza-green:hover {
     background: transparent !important;
+    border-color: #bdd62e !important; 
+    color: white !important; 
+}
+
+.btn-topbar {
+    padding: 0px 8px!important;
+}
+
+.btn-topbar:hover {
+    background-color: white !important;
+    color: #bdd62e !important;
+}
+
+.link-topbar {
+    padding: 0px 8px!important;
+}
+
+.active-kwanza-page {
+    color: #bdd62e !important;
+}
+
+footer {
+    border-top: 6px solid #BED62F;
 }
