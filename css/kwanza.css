@@ -1,0 +1,22 @@
+.footer-link-kwanza {
+    text-decoration: underline;
+}
+
+.margin-left-30 {
+    margin-left: 30px;
+}
+
+.btn-invert-slider {
+    background: transparent;
+    border-color: white;
+    color: white !important;
+}
+
+.btn-invert-slider:hover {
+    background-color: white;
+    color: black !important;
+}
+
+.bg-transparent-important {
+    background: transparent !important;
+}
