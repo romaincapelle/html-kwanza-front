@@ -1,0 +1,26 @@
+.link-topbar {
+    padding: 0px 8px!important;
+    color: white;
+}
+
+.active-kwanza-page {
+    color: #bdd62e !important;
+}
+
+.header-with-topbar .navbar-top {
+    top: 34px;
+}
+
+header nav .navbar-nav.text-normal > li > a {
+    font-size: 14px;
+}
+
+header a.logo img {
+    max-height: 39px !important;
+}
+
+.btn-topbar:hover {
+    background-color: white !important;
+    color: #bdd62e !important;
+}
+
