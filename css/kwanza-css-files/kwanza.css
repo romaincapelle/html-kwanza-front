@@ -1,0 +1,13 @@
+/* components import */
+@import 'components/header.css';
+@import 'components/footer.css';
+@import 'components/btn.css';
+
+/* pages import */
+@import 'pages/homepage.css';
+
+/* misc */
+
+.margin-left-30 {
+    margin-left: 30px;
+}

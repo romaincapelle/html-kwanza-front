@@ -1,0 +1,26 @@
+.btn-invert-kwanza {
+    background-color: white !important; 
+    border-color: #bdd62e !important;
+    color: #bdd62e !important;
+}
+
+.btn-invert-kwanza:hover {
+    background-color: #bdd62e !important;
+    color: white !important;
+    border-color: #bdd62e !important;
+}
+
+.btn-kwanza-green {
+    background-color: #bdd62e !important;
+    border-color: #bdd62e !important; 
+}
+
+.btn-kwanza-green:hover {
+    background-color: white !important; 
+    border-color: #bdd62e !important; 
+    color:#bdd62e !important; 
+}
+
+.btn-topbar {
+    padding: 0px 8px!important;
+}
