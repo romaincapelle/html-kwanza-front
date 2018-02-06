@@ -24,3 +24,7 @@
 .btn-topbar {
     padding: 0px 8px!important;
 }
+
+.btn-rounded-kwanza {
+    border-radius: 7px;
+}
