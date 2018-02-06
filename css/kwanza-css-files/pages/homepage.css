@@ -1,0 +1,18 @@
+.swiper-button-next.slider-long-arrow-white, .swiper-container-rtl .swiper-button-prev.slider-long-arrow-white {
+    background-image: url(/images/kwanza/arrow-next-light-dark.png);
+    background-color: #BED62F;
+    padding: 30px 30px;
+}
+
+
+
+
+.swiper-button-prev.slider-long-arrow-white, .swiper-container-rtl .swiper-button-prev.slider-long-arrow-white {
+    background-image: url(/images/kwanza/arrow-prev-light-dark.png);
+    background-color: #BED62F;
+    padding: 30px 30px;
+}
+
+.lock-min-height600 {
+    min-height: 600px;
+}
