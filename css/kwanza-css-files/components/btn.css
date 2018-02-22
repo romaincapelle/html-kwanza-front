@@ -22,9 +22,13 @@
 }
 
 .btn-topbar {
-    padding: 0px 8px!important;
+    padding: 0px 18px!important;
 }
 
 .btn-rounded-kwanza {
     border-radius: 7px;
+}
+
+.btn-full-width {
+    width: 100%;
 }
