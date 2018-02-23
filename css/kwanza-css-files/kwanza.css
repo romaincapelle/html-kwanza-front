@@ -3,9 +3,11 @@
 @import 'components/footer.css';
 @import 'components/btn.css';
 @import 'components/filter.css';
+@import 'components/card-kwanza.css';
 
 /* pages import */
 @import 'pages/homepage.css';
+@import 'pages/catalog.css';
 
 /* misc */
 
