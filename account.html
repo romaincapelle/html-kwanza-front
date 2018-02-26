@@ -77,15 +77,38 @@
     <!-- start header -->
     <header class="header-with-topbar">
         <!-- topbar -->
-        <div class="top-header-area bg-black padding-5px-tb bg-extra-dark-gray">
+        <div class="top-header-area bg-black padding-5px-tb">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12 hidden-xs xs-no-padding-lr text-right">
+                    <div class="col-md-6 col-sm-6 col-xs-12 text-uppercase alt-font xs-no-padding-lr xs-text-center">
+                        <!-- <a href="tel:1234567890" class="text-link-white xs-width-100" title="Call us 123-456-7890">Call us 123-456-7890</a>
+                                <div class="separator-line-verticle-extra-small bg-dark-gray display-inline-block margin-two-lr hidden-xs position-relative vertical-align-middle top-minus1"></div>
+                                <a href="mailto:no-reply@domain.com" class="text-link-white xs-width-100" title="no-reply@domain.com">no-reply@domain.com</a> -->
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 hidden-xs xs-no-padding-lr text-right">
+                        <div class="icon-social-very-small xs-width-100 xs-text-center display-inline-block">
+                                    <span>Welcome <span id="firstname" class="text-white">Romain</span> <span id="lastname" class="text-white">Capelle</span></span>
+                                </div>
+                        <div class="separator-line-verticle-extra-small bg-dark-gray display-inline-block margin-two-lr hidden-xs position-relative vertical-align-middle"></div>
                         <div class="btn-group dropdown-style-1 xs-width-100 xs-text-center xs-margin-three-bottom display-inline-block">
-                            <a href="#loginpopup" type="button" class="btn btn-medium btn-dark-gray md-margin-15px-bottom sm-display-table sm-margin-lr-auto btn-kwanza-green btn-topbar popup-with-form"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Login to Kwanza for Professionals
-                            </a>
+                            <button type="button" class="btn dropdown-toggle xs-width-100" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                My Account
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu xs-width-100">
+                                <li>
+                                    <a href="javascript:void(0);" title="favorites">
+                                        </span>My Favorites</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" title="history">
+                                        </span>Screening History</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" title="favorites">
+                                        </span>Edit my account</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -152,34 +175,140 @@
         <!-- end navigation -->
     </header>
     <!-- end header -->
-    
-    <!-- start form style 02 section -->
-    <section class="wow fadeIn bg-extra-dark-gray page-title-small top-space">
+    <!-- start page title section -->
+    <section class="wow fadeIn cover-background background-position-top top-space" style="background-image:url('/images/kwanza/about/slider-title.jpg');">
+        <div class="opacity-medium bg-extra-dark-gray"></div>
         <div class="container">
             <div class="row">
-                <div class="col-md-7 col-sm-12 col-xs-12 center-col text-center margin-100px-bottom xs-margin-40px-bottom">
-                    <div class="position-relative overflow-hidden width-100">
-                        <span class="text-small text-outside-line-full alt-font font-weight-600 text-uppercase"> Sign up and gain unlimited access to our films</span>
+                <div class="col-md-12 col-sm-12 col-xs-12 display-table page-title-large">
+                    <div class="display-table-cell vertical-align-middle text-center padding-30px-tb">
+                        <!-- start sub title -->
+                        <span class="display-block text-white opacity6 alt-font margin-5px-bottom"><span>Welcome
+                            <span id="firstname">Romain</span>
+                            <span id="lastname">Capelle</span>
+                        </span></span>
+                        <!-- end sub title -->
+                        <!-- start page title -->
+                        <h1 class="alt-font text-white font-weight-600 no-margin-bottom">My account</h1>
+                        <!-- end page title -->
                     </div>
                 </div>
             </div>
-            <form id="contact-form-2" action="javascript:void(0)" method="post">
-                <div class="row">
-                    <div class="col-md-8 wow fadeIn center-col text-center">
-                        <div id="success-contact-form-2" class="no-margin-lr"></div>
-                        <input type="text" name="email" id="email" placeholder="E-mail*" class="input-border-bottom">
-                        <input type="text" id="password" name="password" placeholder="Password*" class="input-border-bottom">
-                        <input type="text" id="password2" name="password2" placeholder="Re-enter Password*" class="input-border-bottom">
-                        <input type="text" name="first" id="first" placeholder="First Name*" class="input-border-bottom">                        
-                        <input type="text" name="last" id="last" placeholder="Last Name*" class="input-border-bottom">                        
-                        <input type="text" name="company" id="company" placeholder="Company*" class="input-border-bottom">                        
-                        <button id="contact-us-button-2" type="submit" class="btn btn-small btn-deep-pink margin-30px-top xs-margin-three-top">Signup</button>
-                    </div>
-                </div>
-            </form>
         </div>
     </section>
-    <!-- end form style 02 section -->
+    <!-- end page title section -->
+    <!-- start tab style 01 section -->
+    <section class="wow fadeIn">
+        <div class="container tab-style2">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <!-- start tab navigation -->
+                    <ul class="nav nav-tabs alt-font text-uppercase text-small display-inherit text-center font-weight-600">
+                        <li class="active">
+                            <a href="#tab_sec1" data-toggle="tab">Selected for you</a>
+                        </li>
+                        <li>
+                            <a href="#tab_sec2" data-toggle="tab">My Favorites</a>
+                        </li>
+                        <li>
+                            <a href="#tab_sec3" data-toggle="tab">Screening History</a>
+                        </li>
+                        <li>
+                            <a href="#tab_sec4" data-toggle="tab">Edit Information</a>
+                        </li>
+                    </ul>
+                    <!-- end tab navigation -->
+                </div>
+            </div>
+            <div class="tab-content">
+                <!-- start tab content -->
+                <div class="tab-pane med-text fade in active" id="tab_sec1">
+                    <div class="row equalize">
+                        <div class="col-md-6 col-sm-6 col-xs-12 display-table xs-margin-30px-bottom">
+                            <div class="display-table-cell vertical-align-middle">
+                                <img src="http://placehold.it/1232x816" alt="" class="width-100" />
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-sm-6 col-xs-12 display-table col-md-offset-1">
+                            <div class="display-table-cell vertical-align-middle">
+                                <h6 class="alt-font font-weight-700 text-extra-dark-gray margin-20px-bottom text-uppercase">Design & Craft</h6>
+                                <span class="text-extra-large text-extra-dark-gray margin-20px-bottom display-block">We use different types of massage for a variety of health related benefits purposes.</span>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has survived not
+                                    only five centuries, but also the leap into electronic typesetting, remaining essentially
+                                    unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <a href="javascript:void(0);" class="btn btn-small btn-rounded btn-dark-gray">Explore services</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end tab content -->
+                <!-- start tab content -->
+                <div class="tab-pane fade in" id="tab_sec2">
+                    <div class="row equalize">
+                        <div class="col-md-6 col-sm-6 col-xs-12 display-table xs-margin-30px-bottom">
+                            <div class="display-table-cell vertical-align-middle">
+                                <img src="http://placehold.it/1232x816" alt="" class="width-100" />
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-sm-6 col-xs-12 display-table col-md-offset-1">
+                            <div class="display-table-cell vertical-align-middle">
+                                <h6 class="alt-font font-weight-700 text-extra-dark-gray margin-20px-bottom text-uppercase">Development</h6>
+                                <span class="text-extra-large text-extra-dark-gray margin-20px-bottom display-block">We use different types of massage for a variety of health related benefits purposes.</span>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has survived not
+                                    only five centuries, but also the leap into electronic typesetting, remaining essentially
+                                    unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <a href="javascript:void(0);" class="btn btn-small btn-rounded btn-dark-gray">Explore services</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end tab content -->
+                <!-- start tab content -->
+                <div class="tab-pane fade in" id="tab_sec3">
+                    <div class="row equalize">
+                        <div class="col-md-6 col-sm-6 col-xs-12 display-table  xs-margin-30px-bottom">
+                            <div class="display-table-cell vertical-align-middle">
+                                <img src="http://placehold.it/1232x816" alt="" class="width-100" />
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-sm-6 col-xs-12 display-table col-md-offset-1">
+                            <div class="display-table-cell vertical-align-middle">
+                                <h6 class="alt-font font-weight-700 text-extra-dark-gray margin-20px-bottom text-uppercase">Branding</h6>
+                                <span class="text-extra-large text-extra-dark-gray margin-20px-bottom display-block">We use different types of massage for a variety of health related benefits purposes.</span>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has survived not
+                                    only five centuries, but also the leap into electronic typesetting, remaining essentially
+                                    unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <a href="javascript:void(0);" class="btn btn-small btn-rounded btn-dark-gray">Explore services</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end tab content -->
+                <!-- start tab content -->
+                <div class="tab-pane fade in" id="tab_sec4">
+                    <div class="row equalize">
+                        <div class="col-md-6 col-sm-6 col-xs-12 display-table  xs-margin-30px-bottom">
+                            <div class="display-table-cell vertical-align-middle">
+                                <img src="http://placehold.it/1232x816" alt="" />
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-sm-6 col-xs-12 display-table col-md-offset-1">
+                            <div class="display-table-cell vertical-align-middle">
+                                <h6 class="alt-font font-weight-700 text-extra-dark-gray margin-20px-bottom text-uppercase">Brainstorming</h6>
+                                <span class="text-extra-large text-extra-dark-gray margin-20px-bottom display-block">We use different types of massage for a variety of health related benefits purposes.</span>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has survived not
+                                    only five centuries, but also the leap into electronic typesetting, remaining essentially
+                                    unchanged. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <a href="javascript:void(0);" class="btn btn-small btn-rounded btn-dark-gray">Explore services</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end tab content -->
+            </div>
+        </div>
+    </section>
+    <!-- end tab style 01 section -->
     <!-- start footer -->
     <footer class="footer-standard-dark bg-extra-dark-gray">
         <div class="footer-widget-area padding-five-tb xs-padding-30px-tb">
