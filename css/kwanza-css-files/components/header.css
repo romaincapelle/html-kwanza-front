@@ -7,10 +7,6 @@
     color: #bdd62e !important;
 }
 
-.header-with-topbar .navbar-top {
-    top: 34px;
-}
-
 header nav .navbar-nav.text-normal > li > a {
     font-size: 14px;
 }
