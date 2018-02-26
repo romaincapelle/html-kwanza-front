@@ -2943,6 +2943,7 @@ header.sticky nav.navbar.brand-center ul.nav > li > a {padding: 20px; margin: 0 
 .hover-option6 .grid-item .portfolio-icon a {border-radius: 50%; border:2px solid transparent; background: #fff; margin: 0 7px; height: 46px; width: 46px; display: inline-block; -webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s; -ms-transition: all 0.2s ease 0s; -o-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; }
 .hover-option6 .grid-item .portfolio-icon i.fa-link {font-size:20px; position: relative; top: 11px}
 .hover-option6 .grid-item .portfolio-icon i.fa-search {font-size:16px; position: relative; top: 8px}
+.hover-option6 .grid-item .portfolio-icon i.fa-heart {font-size:16px; position: relative; top: 10px}
 .hover-option6 .grid-item .portfolio-icon a:hover, .hover-option6 .grid-item .portfolio-icon a:hover i {background: transparent; color: #fff;  }
 .hover-option6 .grid-item .portfolio-icon a:hover {background: transparent; border:2px solid #fff; color: #fff; transform: scale(1.1, 1.1); -webkit-transform: scale(1.1, 1.1); -moz-transform: scale(1.1, 1.1); -ms-transform: scale(1.1, 1.1); -o-transform: scale(1.1, 1.1);}
 .hover-option6 .grid-item figure:hover img {cursor: default; opacity: .15; transform: scale(1, 1); -webkit-transform: scale(1, 1); -moz-transform: scale(1, 1); -ms-transform: scale(1, 1); -o-transform: scale(1, 1);}
