@@ -51,6 +51,28 @@
 </head>
 
 <body>
+    <!-- start login popup -->
+    <form id="loginpopup" action="javascript:void(0)" method="post" class="white-popup-block col-md-3 no-padding center-col mfp-hide">
+        <div class="padding-fifteen-all bg-white border-radius-6 md-padding-seven-all">
+            <div class="text-extra-dark-gray alt-font text-large font-weight-600 margin-30px-bottom text-center">Login to Kwanza for professionals</div>
+            <div>
+                <div id="success-contact-form" class="no-margin-lr" style="display: none;"></div>
+                <input type="text" name="email" id="email" placeholder="Login" class="input-bg">
+                <input type="text" name="password" id="subject" placeholder="Password" class="input-bg">
+                <button id="login-button" type="submit" class="btn btn-dark-gray btn-small no-margin-lr btn-kwanza-green btn-rounded-kwanza btn-full-width">Login</button>
+            </div>
+            <div class="separator-line-horrizontal-full bg-extra-light-gray margin-30px-bottom margin-30px-top width-100"></div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12 text-left text-small xs-text-center">
+                    <a class="text-extra-dark-gray alt-font text-small font-weight-600 margin-30px-bottom" href="#">Forgot my password?</a>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12 text-right text-small xs-text-center">
+                    <a class="text-extra-dark-gray alt-font text-small font-weight-600 margin-30px-bottom" href="signup.html">Create an account</a>
+                </div>
+            </div>
+        </div>
+    </form>
+    <!-- end login popup -->
     <!-- start header -->
     <header class="header-with-topbar">
         <!-- topbar -->
@@ -308,8 +330,8 @@
                                                 <a href="program.html">
                                                     <i class="fa fa-search text-extra-dark-gray" aria-hidden="true"></i>
                                                 </a>
-                                                <a href="program.html">
-                                                    <i class="fa fa-heart text-extra-dark-gray program-liked" aria-hidden="true"></i>
+                                                <a href="#">
+                                                    <i class="fa fa-heart text-extra-dark-gray" aria-hidden="true"></i>
                                                 </a>
                                             </div>
                                         </div>
@@ -337,7 +359,7 @@
                                                 <a href="program.html">
                                                     <i class="fa fa-search text-extra-dark-gray" aria-hidden="true"></i>
                                                 </a>
-                                                <a href="program.html">
+                                                <a href="#">
                                                     <i class="fa fa-heart text-extra-dark-gray" aria-hidden="true"></i>
                                                 </a>
                                             </div>
@@ -366,7 +388,7 @@
                                                 <a href="program.html">
                                                     <i class="fa fa-search text-extra-dark-gray" aria-hidden="true"></i>
                                                 </a>
-                                                <a href="program.html">
+                                                <a href="#">
                                                     <i class="fa fa-heart text-extra-dark-gray" aria-hidden="true"></i>
                                                 </a>
                                             </div>
@@ -396,7 +418,7 @@
                                                 <a href="program.html">
                                                     <i class="fa fa-search text-extra-dark-gray" aria-hidden="true"></i>
                                                 </a>
-                                                <a href="program.html">
+                                                <a href="#">
                                                     <i class="fa fa-heart text-extra-dark-gray" aria-hidden="true"></i>
                                                 </a>
                                             </div>
@@ -425,7 +447,7 @@
                                                 <a href="program.html">
                                                     <i class="fa fa-search text-extra-dark-gray" aria-hidden="true"></i>
                                                 </a>
-                                                <a href="program.html">
+                                                <a href="#">
                                                     <i class="fa fa-heart text-extra-dark-gray" aria-hidden="true"></i>
                                                 </a>
                                             </div>
@@ -455,7 +477,7 @@
                                                 <a href="program.html">
                                                     <i class="fa fa-search text-extra-dark-gray" aria-hidden="true"></i>
                                                 </a>
-                                                <a href="program.html">
+                                                <a href="#">
                                                     <i class="fa fa-heart text-extra-dark-gray" aria-hidden="true"></i>
                                                 </a>
                                             </div>
@@ -485,7 +507,7 @@
                                                 <a href="program.html">
                                                     <i class="fa fa-search text-extra-dark-gray" aria-hidden="true"></i>
                                                 </a>
-                                                <a href="program.html">
+                                                <a href="#">
                                                     <i class="fa fa-heart text-extra-dark-gray" aria-hidden="true"></i>
                                                 </a>
                                             </div>
@@ -515,7 +537,7 @@
                                                 <a href="program.html">
                                                     <i class="fa fa-search text-extra-dark-gray" aria-hidden="true"></i>
                                                 </a>
-                                                <a href="program.html">
+                                                <a href="#">
                                                     <i class="fa fa-heart text-extra-dark-gray" aria-hidden="true"></i>
                                                 </a>
                                             </div>
@@ -544,7 +566,7 @@
                                                 <a href="program.html">
                                                     <i class="fa fa-search text-extra-dark-gray" aria-hidden="true"></i>
                                                 </a>
-                                                <a href="program.html">
+                                                <a href="#">
                                                     <i class="fa fa-heart text-extra-dark-gray" aria-hidden="true"></i>
                                                 </a>
                                             </div>
@@ -574,7 +596,7 @@
                                                 <a href="program.html">
                                                     <i class="fa fa-search text-extra-dark-gray" aria-hidden="true"></i>
                                                 </a>
-                                                <a href="program.html">
+                                                <a href="#">
                                                     <i class="fa fa-heart text-extra-dark-gray" aria-hidden="true"></i>
                                                 </a>
                                             </div>
@@ -721,11 +743,6 @@
             </div>
         </footer>
         <!-- end footer -->
-<!-- start scroll to top -->
-<a class="scroll-top-arrow" href="javascript:void(0);">
-    <i class="ti-arrow-up"></i>
-</a>
-<!-- end scroll to top -->
 <!-- javascript libraries -->
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/modernizr.js"></script>
@@ -787,6 +804,7 @@
         <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>-->
 <!-- setting -->
 <script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/kwanza.js"></script>
 </body>
 
 </html>
