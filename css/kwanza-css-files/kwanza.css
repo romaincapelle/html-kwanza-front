@@ -4,6 +4,7 @@
 @import 'components/btn.css';
 @import 'components/filter.css';
 @import 'components/card-kwanza.css';
+@import 'components/breadcrumb.css';
 
 /* pages import */
 @import 'pages/homepage.css';
