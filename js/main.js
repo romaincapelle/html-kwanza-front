@@ -116,8 +116,7 @@ function init_scroll_navigate() {
     var headerHeight = $('nav').outerHeight();
     if (!$('header').hasClass('no-sticky')) {
         if ($(document).scrollTop() >= headerHeight) {
-            $('header').addClass('sticky');
-
+            // let's not hide the nav bar when we scroll down
         } else if ($(document).scrollTop() <= headerHeight) {
             $('header').removeClass('sticky');
             setTimeout(function () {
@@ -1419,15 +1418,15 @@ $(document).ready(function () {
     });
     function ValidationContactForm2() {
         var error = true;
-        $('#contact-form-2 input[type=text]').each(function (index) {
-            if (index == 0) {
+        $('#contact-form-2 input[type=text]').each(function (index, el) {
+            if (el.id === "password") {
                 if ($(this).val() == null || $(this).val() == "") {
                     $("#contact-form-2").find("input:eq(" + index + ")").addClass("required-error");
                     error = false;
                 } else {
                     $("#contact-form-2").find("input:eq(" + index + ")").removeClass("required-error");
                 }
-            } else if (index == 1) {
+            } else if (el.id === "email") {
                 if (!(/(.+)@(.+){2,}\.(.+){2,}/.test($(this).val()))) {
                     $("#contact-form-2").find("input:eq(" + index + ")").addClass("required-error");
                     error = false;

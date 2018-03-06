@@ -20,3 +20,6 @@ header a.logo img {
     color: #bdd62e !important;
 }
 
+.header-with-topbar .navbar-top {
+    top: 34px;
+}
