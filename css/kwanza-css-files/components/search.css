@@ -1,0 +1,30 @@
+.search-form .search-input {
+    font-weight: 500 !important;
+}
+
+.search-form .search-input {
+    border-radius: 0;
+    border-bottom: 2px solid rgba(255,255,255,0.5);
+    font-size: 20px;
+    font-weight: 100;
+    padding: 16px 0px 0px 0px;
+    text-transform: capitalize;
+    background: transparent;
+    line-height: 0px;
+    color: #fff;
+}
+
+.search-form .search-button {
+    font-size: 21px;
+    top: 17px;
+    right: -20px;
+}
+
+.mfp-fade.mfp-bg.mfp-ready {
+    opacity: 0.9;
+}
+
+.search-form-toggle {
+    
+}
+

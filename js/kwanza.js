@@ -2,6 +2,12 @@ $('.fa-heart').click(function(event){
     $(this).toggleClass('program-liked');
 });
 
+
+$('.fa-search').click(function (event){
+    searchShowHide.toggleClass('search-form-toggle');
+});
+
+
 // function romain(event) {
 //     console.log("stuff");
 // }

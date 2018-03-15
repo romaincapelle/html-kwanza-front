@@ -4,3 +4,8 @@
     top: 4px;
     z-index: 5000;
 }
+
+
+.hover-option6 .grid-item figure:hover img {
+    opacity: 0.7;
+}

@@ -23,3 +23,7 @@ header a.logo img {
 .header-with-topbar .navbar-top {
     top: 34px;
 }
+
+.search-bar-top {
+    top: 106px;
+}
