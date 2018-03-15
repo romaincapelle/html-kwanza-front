@@ -9,6 +9,7 @@
 /* pages import */
 @import 'pages/homepage.css';
 @import 'pages/catalog.css';
+@import 'pages/program.css';
 
 /* misc */
 body {
