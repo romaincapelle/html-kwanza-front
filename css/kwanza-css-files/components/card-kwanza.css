@@ -4,3 +4,8 @@
     top: 4px;
     z-index: 1;
 }
+
+.caption-hover:hover {
+    background-color: #f4f4f4 !important;
+    cursor: pointer !important;
+}
