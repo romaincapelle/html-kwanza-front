@@ -77,7 +77,7 @@
     <!-- start header -->
     <header class="header-with-topbar">
         <!-- topbar -->
-        <div class="top-header-area bg-black padding-5px-tb bg-extra-dark-gray">
+        <div class="top-header-area padding-5px-tb bg-extra-dark-gray">
             <div class="container">
                 <div class="row">
                     <div class="text-right sm-text-center xs-text-center">
@@ -134,21 +134,31 @@
                     </div>
                     <div class="col-md-2 col-xs-5 width-auto">
                         <div class="header-searchbar">
-                            <a href="#search-header" class="header-search-form text-white">
-                                <i class="fa fa-search search-button"></i>
+                            <a href="javascript:void(0);" onclick="openSearchBar(this);" class="header-search-form text-white">
+                                <i class="fa fa-search search-button fa-search-open"></i>
                             </a>
-                            <!-- search input-->
-                            <form id="search-header" method="post" action="search-result.html" name="search-header" class="mfp-hide search-form-result">
-                                <div class="search-form position-relative">
-                                    <button type="submit" class="fa fa-search close-search search-button"></button>
-                                    <input type="text" name="search" class="search-input" placeholder="Enter your keywords..." autocomplete="off">
-                                </div>
-                            </form>
                         </div>
                     </div>
                 </div>
             </div>
         </nav>
+        <div class="searchbar-kwanza bg-extra-dark-gray">
+            <div class="container">
+                <div class="row">
+                    <div class="text-right sm-text-center xs-text-center">
+                        <div>
+                            <form id="search-header" method="post" action="search-result.html" name="search-header" class="search-form-result">
+                            <div class="search-form position-relative">
+                                <button type="submit" class="fa fa-search close-search search-button"></button>
+                                <input type="text" name="search" class="search-input" placeholder="Enter your keywords..." autocomplete="off" style="border-top: none; border-right: none; border-bottom: 2px solid red; border-left: none; border-image: initial;">
+                            </div>
+                        </form>
+                        </div>
+                    </div>
+
+                </div>        
+            </div>
+        </div>
         <!-- end navigation -->
     </header>
     <!-- end header -->
