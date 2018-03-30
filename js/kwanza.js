@@ -9,3 +9,10 @@ function favoriteThisMovie(el) {
         }, 2000);
     }
 }
+
+function openSearchBar(el) {
+    var el = $(el);
+    var searchbar = $('.searchbar-kwanza');
+    searchbar.toggleClass('hidden');
+    
+}
