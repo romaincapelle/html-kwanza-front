@@ -54,7 +54,7 @@
     <!-- start login popup -->
     <form id="loginpopup" action="javascript:void(0)" method="post" class="white-popup-block col-md-3 no-padding center-col mfp-hide">
         <div class="padding-fifteen-all bg-white border-radius-6 md-padding-seven-all">
-            <div class="text-extra-dark-gray alt-font text-large font-weight-600 margin-30px-bottom text-center">Login to Kwanza for professionals</div>
+            <div class="text-extra-dark-gray alt-font text-large font-weight-600 margin-30px-bottom text-center">Login</div>
             <div>
                 <div id="success-contact-form" class="no-margin-lr" style="display: none;"></div>
                 <input type="text" name="email" id="email" placeholder="Login" class="input-bg">
@@ -134,16 +134,9 @@
                     </div>
                     <div class="col-md-2 col-xs-5 width-auto">
                         <div class="header-searchbar">
-                            <a href="#search-header" class="header-search-form text-white">
-                                <i class="fa fa-search search-button"></i>
+                            <a href="javascript:void(0);" onclick="openSearchBar(this);" class="header-search-form text-white">
+                                <i class="fa fa-search search-button fa-search-open"></i>
                             </a>
-                            <!-- search input-->
-                            <form id="search-header" method="post" action="search-result.html" name="search-header" class="mfp-hide search-form-result">
-                                <div class="search-form position-relative">
-                                    <button type="submit" class="fa fa-search close-search search-button"></button>
-                                    <input type="text" name="search" class="search-input" placeholder="Enter your keywords..." autocomplete="off">
-                                </div>
-                            </form>
                         </div>
                     </div>
                 </div>
