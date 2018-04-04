@@ -23,3 +23,7 @@ body {
 .hover-option6 .grid-item .portfolio-icon i.fa-play-circle {font-size:20px; position: relative; top: 11px; left: 2px;}
 .hover-option6 .grid-item .portfolio-icon i.fa-play {font-size:20px; position: relative; top: 11px; left: 2px;}
 .hover-option6 .grid-item .portfolio-icon i.fa-video {font-size:20px; position: relative; top: 11px; left: 2px;}
+
+.max-height-150 {
+    max-height: 150px;
+}
