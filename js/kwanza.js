@@ -11,8 +11,6 @@ function favoriteThisMovie(el) {
 }
 
 function openSearchBar(el) {
-    var el = $(el);
     var searchbar = $('.searchbar-kwanza');
-    searchbar.toggleClass('hidden');
-    
+    searchbar.toggleClass('hidden'); 
 }

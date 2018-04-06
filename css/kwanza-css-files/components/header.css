@@ -1,5 +1,11 @@
+header .top-header-area {
+    height: 38px !important;
+    padding-right: 25px !important;
+}
+
+
 .link-topbar {
-    padding: 0px 8px!important;
+    padding: 0px 8px !important;
     color: white;
 }
 

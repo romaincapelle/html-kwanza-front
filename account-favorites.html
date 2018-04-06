@@ -54,7 +54,7 @@
     <!-- start login popup -->
     <form id="loginpopup" action="javascript:void(0)" method="post" class="white-popup-block col-md-3 no-padding center-col mfp-hide">
         <div class="padding-fifteen-all bg-white border-radius-6 md-padding-seven-all">
-            <div class="text-extra-dark-gray alt-font text-large font-weight-600 margin-30px-bottom text-center">Login to Kwanza for professionals</div>
+            <div class="text-extra-dark-gray alt-font text-large font-weight-600 margin-30px-bottom text-center">Login</div>
             <div>
                 <div id="success-contact-form" class="no-margin-lr" style="display: none;"></div>
                 <input type="text" name="email" id="email" placeholder="Login" class="input-bg">
@@ -82,31 +82,39 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-12 text-uppercase alt-font xs-no-padding-lr xs-text-center">
                         <!-- <a href="tel:1234567890" class="text-link-white xs-width-100" title="Call us 123-456-7890">Call us 123-456-7890</a>
-                                <div class="separator-line-verticle-extra-small bg-dark-gray display-inline-block margin-two-lr hidden-xs position-relative vertical-align-middle top-minus1"></div>
-                                <a href="mailto:no-reply@domain.com" class="text-link-white xs-width-100" title="no-reply@domain.com">no-reply@domain.com</a> -->
+                                        <div class="separator-line-verticle-extra-small bg-dark-gray display-inline-block margin-two-lr hidden-xs position-relative vertical-align-middle top-minus1"></div>
+                                        <a href="mailto:no-reply@domain.com" class="text-link-white xs-width-100" title="no-reply@domain.com">no-reply@domain.com</a> -->
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12 hidden-xs xs-no-padding-lr text-right">
                         <div class="icon-social-very-small xs-width-100 xs-text-center display-inline-block">
-                                    <span>Welcome <span id="firstname" class="text-white">Romain</span> <span id="lastname" class="text-white">Capelle</span></span>
-                                </div>
+                            <span>Welcome
+                                <span id="firstname" class="text-white">Romain</span>
+                            </span>
+                        </div>
                         <div class="separator-line-verticle-extra-small bg-dark-gray display-inline-block margin-two-lr hidden-xs position-relative vertical-align-middle"></div>
                         <div class="btn-group dropdown-style-1 xs-width-100 xs-text-center xs-margin-three-bottom display-inline-block">
                             <button type="button" class="btn dropdown-toggle xs-width-100" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                My Account
+                                <a class="facebook text-white" href="account.html" target="_blank">
+                                    <i class="fa fa-user" aria-hidden="true"></i>
+                                </a>
                                 <span class="caret"></span>
                             </button>
                             <ul class="dropdown-menu xs-width-100">
                                 <li>
-                                    <a href="javascript:void(0);" title="favorites">
+                                    <a href="account.html" title="favorites">
+                                        </span>Selected for you</a>
+                                </li>
+                                <li>
+                                    <a href="account-favorites.html" title="favorites">
                                         </span>My Favorites</a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0);" title="history">
+                                    <a href="account-history.html" title="history">
                                         </span>Screening History</a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0);" title="favorites">
-                                        </span>Edit my account</a>
+                                    <a href="account-edit.html" title="favorites">
+                                        </span>Edit Information</a>
                                 </li>
                             </ul>
                         </div>
@@ -185,7 +193,7 @@
                         <!-- start sub title -->
                         <span class="display-block text-white opacity6 alt-font margin-5px-bottom"><span>Welcome
                             <span id="firstname">Romain</span>
-                            <span id="lastname">Capelle</span>
+                            
                         </span></span>
                         <!-- end sub title -->
                         <!-- start page title -->
@@ -229,312 +237,282 @@
                 <!-- start tab content -->
                 <div class="tab-pane fade in active" id="tab_sec2">
                     <!-- start filter content -->
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-12 no-padding xs-padding-15px-lr">
-                                <div class="filter-content overflow-hidden">
-                                    <ul class="portfolio-grid work-5col gutter-medium hover-option6 lightbox-portfolio">
-                                        <li class="grid-sizer"></li>
-                                        <!-- start portfolio-item item -->
-                                        <li class="design web photography grid-item wow fadeInUp last-paragraph-no-margin">
-                                            <img class="card-hd-label" src="images/kwanza/catalogue/hd.png">
-                                            <figure>
-                                                <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
-                                                    <img src="images/kwanza/catalogue/catalogue-index-portfolio-item-01.jpg" alt="" />
-                                                    <div class="portfolio-icon">
-                                                        <a href="program.html">
-                                                            <i class="fa fa-search text-extra-dark-gray" aria-hidden="true"></i>
-                                                        </a>
-                                                        <a href="#">
-                                                            <i class="fa fa-heart text-extra-dark-gray" aria-hidden="true"></i>
-                                                        </a>
-                                                    </div>
+                    <div class="filter-content overflow-hidden">
+                        <ul class="portfolio-grid work-3col gutter-medium hover-option6 lightbox-portfolio" style="position: relative; height: 827.782px;">
+                            <li class="grid-sizer"></li>
+                            <!-- start portfolio-item item -->
+                            <li class="design web photography grid-item fadeInUp last-paragraph-no-margin" style="position: absolute; left: 0%; top: 0px; visibility: visible; animation-name: fadeInUp;">
+                                <img class="card-hd-label" src="images/kwanza/catalogue/4k.png" data-no-retina="">
+                                <figure>
+                                    <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
+                                        <img src="images/kwanza/homepage/new-releases-01.jpg" alt="" data-no-retina="" onclick="javascript:location.href='program.html'">
+                                        <div class="portfolio-icon">
+                                            <a title="Name of the program" href="program.html">
+                                                <i class="fa fa-info text-extra-dark-gray" aria-hidden="true"></i>
+                                            </a>
+                                            <a href="javascript:void(0);" onclick="favoriteThisMovie(this);" title="Name of the program">
+                                                <i class="fa fa-heart text-extra-dark-gray" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <figcaption class="bg-white caption-hover" onclick="javascript:location.href='program.html'">
+                                        <div class="portfolio-hover-main text-center">
+                                            <div class="portfolio-hover-box vertical-align-middle">
+                                                <div class="portfolio-hover-content position-relative">
+                                                    <a href="program.html">
+                                                        <span class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Another Justice</span>
+                                                    </a>
+                                                    <p class="text-medium-gray text-extra-small text-uppercase">3X52''</p>
                                                 </div>
-                                                <figcaption class="bg-white">
-                                                    <div class="portfolio-hover-main text-center">
-                                                        <div class="portfolio-hover-box vertical-align-middle">
-                                                            <div class="portfolio-hover-content position-relative">
-                                                                <a href="#">
-                                                                    <span class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Jack London, an American Adventure</span>
-                                                                </a>
-                                                                <p class="text-medium-gray text-extra-small text-uppercase">2x52' - 90HD</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </figcaption>
-                                            </figure>
-                                        </li>
-                                        <!-- end portfolio item -->
-                                        <!-- start portfolio item -->
-                                        <li class="advertising grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.2s">
-                                            <figure>
-                                                <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
-                                                    <img src="images/kwanza/catalogue/catalogue-index-portfolio-item-01.jpg" alt="" />
-                                                    <div class="portfolio-icon">
-                                                        <a href="program.html">
-                                                            <i class="fa fa-search text-extra-dark-gray" aria-hidden="true"></i>
-                                                        </a>
-                                                        <a href="#">
-                                                            <i class="fa fa-heart text-extra-dark-gray" aria-hidden="true"></i>
-                                                        </a>
-                                                    </div>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <!-- end portfolio item -->
+                            <!-- start portfolio-item item -->
+                            <li class="design web photography grid-item fadeInUp last-paragraph-no-margin" style="position: absolute; left: 39.9788%; top: 0px; visibility: visible; animation-name: fadeInUp;">
+                                <img class="card-hd-label" src="images/kwanza/catalogue/4k.png" data-no-retina="">
+                                <figure>
+                                    <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
+                                        <img src="images/kwanza/homepage/new-releases-01.jpg" alt="" data-no-retina="" onclick="javascript:location.href='program.html'">
+                                        <div class="portfolio-icon">
+                                            <a title="Name of the program" href="program.html">
+                                                <i class="fa fa-info text-extra-dark-gray" aria-hidden="true"></i>
+                                            </a>
+                                            <a href="javascript:void(0);" onclick="favoriteThisMovie(this);" title="Name of the program">
+                                                <i class="fa fa-heart text-extra-dark-gray" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <figcaption class="bg-white caption-hover" onclick="javascript:location.href='program.html'">
+                                        <div class="portfolio-hover-main text-center">
+                                            <div class="portfolio-hover-box vertical-align-middle">
+                                                <div class="portfolio-hover-content position-relative">
+                                                    <a href="program.html">
+                                                        <span class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Another Justice</span>
+                                                    </a>
+                                                    <p class="text-medium-gray text-extra-small text-uppercase">3X52''</p>
                                                 </div>
-                                                <figcaption class="bg-white">
-                                                    <div class="portfolio-hover-main text-center">
-                                                        <div class="portfolio-hover-box vertical-align-middle">
-                                                            <div class="portfolio-hover-content position-relative">
-                                                                <a href="#">
-                                                                    <span class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Jack London, an American Adventure</span>
-                                                                </a>
-                                                                <p class="text-medium-gray text-extra-small text-uppercase">2x52' - 90HD</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </figcaption>
-                                            </figure>
-                                        </li>
-                                        <!-- end portfolio item -->
-                                        <!-- start portfolio item -->
-                                        <li class="branding photography advertising web grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.4s">
-                                            <figure>
-                                                <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
-                                                    <img src="images/kwanza/catalogue/catalogue-index-portfolio-item-01.jpg" alt="" />
-                                                    <div class="portfolio-icon">
-                                                        <a href="program.html">
-                                                            <i class="fa fa-search text-extra-dark-gray" aria-hidden="true"></i>
-                                                        </a>
-                                                        <a href="#">
-                                                            <i class="fa fa-heart text-extra-dark-gray" aria-hidden="true"></i>
-                                                        </a>
-                                                    </div>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <!-- end portfolio item -->
+                            <!-- start portfolio-item item -->
+                            <li class="design web photography grid-item fadeInUp last-paragraph-no-margin" style="position: absolute; left: 59.9683%; top: 0px; visibility: visible; animation-name: fadeInUp;">
+                                <img class="card-hd-label" src="images/kwanza/catalogue/4k.png" data-no-retina="">
+                                <figure>
+                                    <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
+                                        <img src="images/kwanza/homepage/new-releases-01.jpg" alt="" data-no-retina="" onclick="javascript:location.href='program.html'">
+                                        <div class="portfolio-icon">
+                                            <a title="Name of the program" href="program.html">
+                                                <i class="fa fa-info text-extra-dark-gray" aria-hidden="true"></i>
+                                            </a>
+                                            <a href="javascript:void(0);" onclick="favoriteThisMovie(this);" title="Name of the program">
+                                                <i class="fa fa-heart text-extra-dark-gray" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <figcaption class="bg-white caption-hover" onclick="javascript:location.href='program.html'">
+                                        <div class="portfolio-hover-main text-center">
+                                            <div class="portfolio-hover-box vertical-align-middle">
+                                                <div class="portfolio-hover-content position-relative">
+                                                    <a href="program.html">
+                                                        <span class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Another Justice</span>
+                                                    </a>
+                                                    <p class="text-medium-gray text-extra-small text-uppercase">3X52''</p>
                                                 </div>
-                                                <figcaption class="bg-white">
-                                                    <div class="portfolio-hover-main text-center">
-                                                        <div class="portfolio-hover-box vertical-align-middle">
-                                                            <div class="portfolio-hover-content position-relative">
-                                                                <a href="#">
-                                                                    <span class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Jack London, an American Adventure</span>
-                                                                </a>
-                                                                <p class="text-medium-gray text-extra-small text-uppercase">2x52' - 90HD</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </figcaption>
-                                            </figure>
-                                        </li>
-                                        <!-- end portfolio item -->
-                                        <!-- start portfolio item -->
-                                        <li class="design photography grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.6s">
-                                            <img class="card-hd-label" src="images/kwanza/catalogue/hd.png">
-                                            <figure>
-                                                <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
-                                                    <img src="images/kwanza/catalogue/catalogue-index-portfolio-item-01.jpg" alt="" />
-                                                    <div class="portfolio-icon">
-                                                        <a href="program.html">
-                                                            <i class="fa fa-search text-extra-dark-gray" aria-hidden="true"></i>
-                                                        </a>
-                                                        <a href="#">
-                                                            <i class="fa fa-heart text-extra-dark-gray" aria-hidden="true"></i>
-                                                        </a>
-                                                    </div>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <!-- end portfolio item -->
+                            <!-- start portfolio-item item -->
+                            <li class="design web photography grid-item fadeInUp last-paragraph-no-margin" style="position: absolute; left: 79.9577%; top: 0px; visibility: visible; animation-name: fadeInUp;">
+                                <img class="card-hd-label" src="images/kwanza/catalogue/4k.png" data-no-retina="">
+                                <figure>
+                                    <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
+                                        <img src="images/kwanza/homepage/new-releases-01.jpg" alt="" data-no-retina="" onclick="javascript:location.href='program.html'">
+                                        <div class="portfolio-icon">
+                                            <a title="Name of the program" href="program.html">
+                                                <i class="fa fa-info text-extra-dark-gray" aria-hidden="true"></i>
+                                            </a>
+                                            <a href="javascript:void(0);" onclick="favoriteThisMovie(this);" title="Name of the program">
+                                                <i class="fa fa-heart text-extra-dark-gray" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <figcaption class="bg-white caption-hover" onclick="javascript:location.href='program.html'">
+                                        <div class="portfolio-hover-main text-center">
+                                            <div class="portfolio-hover-box vertical-align-middle">
+                                                <div class="portfolio-hover-content position-relative">
+                                                    <a href="program.html">
+                                                        <span class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Another Justice</span>
+                                                    </a>
+                                                    <p class="text-medium-gray text-extra-small text-uppercase">3X52''</p>
                                                 </div>
-                                                <figcaption class="bg-white">
-                                                    <div class="portfolio-hover-main text-center">
-                                                        <div class="portfolio-hover-box vertical-align-middle">
-                                                            <div class="portfolio-hover-content position-relative">
-                                                                <a href="#">
-                                                                    <span class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Jack London, an American Adventure</span>
-                                                                </a>
-                                                                <p class="text-medium-gray text-extra-small text-uppercase">2x52' - 90HD</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </figcaption>
-                                            </figure>
-                                        </li>
-                                        <!-- end portfolio item -->
-                                        <!-- start portfolio item -->
-                                        <li class="design branding grid-item wow fadeInUp last-paragraph-no-margin">
-                                            <figure>
-                                                <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
-                                                    <img src="images/kwanza/catalogue/catalogue-index-portfolio-item-01.jpg" alt="" />
-                                                    <div class="portfolio-icon">
-                                                        <a href="program.html">
-                                                            <i class="fa fa-search text-extra-dark-gray" aria-hidden="true"></i>
-                                                        </a>
-                                                        <a href="#">
-                                                            <i class="fa fa-heart text-extra-dark-gray" aria-hidden="true"></i>
-                                                        </a>
-                                                    </div>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <!-- end portfolio item -->
+                            <!-- start portfolio-item item -->
+                            <li class="design web photography grid-item fadeInUp last-paragraph-no-margin" style="position: absolute; left: 0%; top: 413px; visibility: visible; animation-name: fadeInUp;">
+                                <img class="card-hd-label" src="images/kwanza/catalogue/4k.png" data-no-retina="">
+                                <figure>
+                                    <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
+                                        <img src="images/kwanza/homepage/new-releases-01.jpg" alt="" data-no-retina="" onclick="javascript:location.href='program.html'">
+                                        <div class="portfolio-icon">
+                                            <a title="Name of the program" href="program.html">
+                                                <i class="fa fa-info text-extra-dark-gray" aria-hidden="true"></i>
+                                            </a>
+                                            <a href="javascript:void(0);" onclick="favoriteThisMovie(this);" title="Name of the program">
+                                                <i class="fa fa-heart text-extra-dark-gray" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <figcaption class="bg-white caption-hover" onclick="javascript:location.href='program.html'">
+                                        <div class="portfolio-hover-main text-center">
+                                            <div class="portfolio-hover-box vertical-align-middle">
+                                                <div class="portfolio-hover-content position-relative">
+                                                    <a href="program.html">
+                                                        <span class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Another Justice</span>
+                                                    </a>
+                                                    <p class="text-medium-gray text-extra-small text-uppercase">3X52''</p>
                                                 </div>
-                                                <figcaption class="bg-white">
-                                                    <div class="portfolio-hover-main text-center">
-                                                        <div class="portfolio-hover-box vertical-align-middle">
-                                                            <div class="portfolio-hover-content position-relative">
-                                                                <a href="#">
-                                                                    <span class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Jack London, an American Adventure</span>
-                                                                </a>
-                                                                <p class="text-medium-gray text-extra-small text-uppercase">2x52' - 90HD</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </figcaption>
-                                            </figure>
-                                        </li>
-                                        <!-- end portfolio item -->
-                                        <!-- start portfolio item -->
-                                        <li class="advertising web grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.2s">
-                                            <img class="card-hd-label" src="images/kwanza/catalogue/hd.png">
-                                            <figure>
-                                                <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
-                                                    <img src="images/kwanza/catalogue/catalogue-index-portfolio-item-01.jpg" alt="" />
-                                                    <div class="portfolio-icon">
-                                                        <a href="program.html">
-                                                            <i class="fa fa-search text-extra-dark-gray" aria-hidden="true"></i>
-                                                        </a>
-                                                        <a href="#">
-                                                            <i class="fa fa-heart text-extra-dark-gray" aria-hidden="true"></i>
-                                                        </a>
-                                                    </div>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <!-- end portfolio item -->
+                            <!-- start portfolio-item item -->
+                            <li class="design web photography grid-item fadeInUp last-paragraph-no-margin" style="position: absolute; left: 19.9894%; top: 413px; visibility: visible; animation-name: fadeInUp;">
+                                <img class="card-hd-label" src="images/kwanza/catalogue/4k.png" data-no-retina="">
+                                <figure>
+                                    <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
+                                        <img src="images/kwanza/homepage/new-releases-01.jpg" alt="" data-no-retina="" onclick="javascript:location.href='program.html'">
+                                        <div class="portfolio-icon">
+                                            <a title="Name of the program" href="program.html">
+                                                <i class="fa fa-info text-extra-dark-gray" aria-hidden="true"></i>
+                                            </a>
+                                            <a href="javascript:void(0);" onclick="favoriteThisMovie(this);" title="Name of the program">
+                                                <i class="fa fa-heart text-extra-dark-gray" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <figcaption class="bg-white caption-hover" onclick="javascript:location.href='program.html'">
+                                        <div class="portfolio-hover-main text-center">
+                                            <div class="portfolio-hover-box vertical-align-middle">
+                                                <div class="portfolio-hover-content position-relative">
+                                                    <a href="program.html">
+                                                        <span class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Another Justice</span>
+                                                    </a>
+                                                    <p class="text-medium-gray text-extra-small text-uppercase">3X52''</p>
                                                 </div>
-                                                <figcaption class="bg-white">
-                                                    <div class="portfolio-hover-main text-center">
-                                                        <div class="portfolio-hover-box vertical-align-middle">
-                                                            <div class="portfolio-hover-content position-relative">
-                                                                <a href="#">
-                                                                    <span class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Jack London, an American Adventure</span>
-                                                                </a>
-                                                                <p class="text-medium-gray text-extra-small text-uppercase">2x52' - 90HD</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </figcaption>
-                                            </figure>
-                                        </li>
-                                        <!-- end portfolio item -->
-                                        <!-- start portfolio item -->
-                                        <li class="design photography branding grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.4s">
-                                            <img class="card-hd-label" src="images/kwanza/catalogue/hd.png">
-                                            <figure>
-                                                <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
-                                                    <img src="images/kwanza/catalogue/catalogue-index-portfolio-item-01.jpg" alt="" />
-                                                    <div class="portfolio-icon">
-                                                        <a href="program.html">
-                                                            <i class="fa fa-search text-extra-dark-gray" aria-hidden="true"></i>
-                                                        </a>
-                                                        <a href="#">
-                                                            <i class="fa fa-heart text-extra-dark-gray" aria-hidden="true"></i>
-                                                        </a>
-                                                    </div>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <!-- end portfolio item -->
+                            <!-- start portfolio-item item -->
+                            <li class="design web photography grid-item fadeInUp last-paragraph-no-margin" style="position: absolute; left: 39.9788%; top: 413px; visibility: visible; animation-name: fadeInUp;">
+                                <img class="card-hd-label" src="images/kwanza/catalogue/4k.png" data-no-retina="">
+                                <figure>
+                                    <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
+                                        <img src="images/kwanza/homepage/new-releases-01.jpg" alt="" data-no-retina="" onclick="javascript:location.href='program.html'">
+                                        <div class="portfolio-icon">
+                                            <a title="Name of the program" href="program.html">
+                                                <i class="fa fa-info text-extra-dark-gray" aria-hidden="true"></i>
+                                            </a>
+                                            <a href="javascript:void(0);" onclick="favoriteThisMovie(this);" title="Name of the program">
+                                                <i class="fa fa-heart text-extra-dark-gray" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <figcaption class="bg-white caption-hover" onclick="javascript:location.href='program.html'">
+                                        <div class="portfolio-hover-main text-center">
+                                            <div class="portfolio-hover-box vertical-align-middle">
+                                                <div class="portfolio-hover-content position-relative">
+                                                    <a href="program.html">
+                                                        <span class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Another Justice</span>
+                                                    </a>
+                                                    <p class="text-medium-gray text-extra-small text-uppercase">3X52''</p>
                                                 </div>
-                                                <figcaption class="bg-white">
-                                                    <div class="portfolio-hover-main text-center">
-                                                        <div class="portfolio-hover-box vertical-align-middle">
-                                                            <div class="portfolio-hover-content position-relative">
-                                                                <a href="#">
-                                                                    <span class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Jack London, an American Adventure</span>
-                                                                </a>
-                                                                <p class="text-medium-gray text-extra-small text-uppercase">2x52' - 90HD</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </figcaption>
-                                            </figure>
-                                        </li>
-                                        <!-- end portfolio item -->
-                                        <!-- start portfolio item -->
-                                        <li class="branding advertising web grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.6s">
-                                            <img class="card-hd-label" src="images/kwanza/catalogue/hd.png">
-                                            <figure>
-                                                <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
-                                                    <img src="images/kwanza/catalogue/catalogue-index-portfolio-item-01.jpg" alt="" />
-                                                    <div class="portfolio-icon">
-                                                        <a href="program.html">
-                                                            <i class="fa fa-search text-extra-dark-gray" aria-hidden="true"></i>
-                                                        </a>
-                                                        <a href="#">
-                                                            <i class="fa fa-heart text-extra-dark-gray" aria-hidden="true"></i>
-                                                        </a>
-                                                    </div>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <!-- end portfolio item -->
+                            <!-- start portfolio-item item -->
+                            <li class="design web photography grid-item fadeInUp last-paragraph-no-margin" style="position: absolute; left: 59.9683%; top: 413px; visibility: visible; animation-name: fadeInUp;">
+                                <img class="card-hd-label" src="images/kwanza/catalogue/4k.png" data-no-retina="">
+                                <figure>
+                                    <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
+                                        <img src="images/kwanza/homepage/new-releases-01.jpg" alt="" data-no-retina="" onclick="javascript:location.href='program.html'">
+                                        <div class="portfolio-icon">
+                                            <a title="Name of the program" href="program.html">
+                                                <i class="fa fa-info text-extra-dark-gray" aria-hidden="true"></i>
+                                            </a>
+                                            <a href="javascript:void(0);" onclick="favoriteThisMovie(this);" title="Name of the program">
+                                                <i class="fa fa-heart text-extra-dark-gray" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <figcaption class="bg-white caption-hover" onclick="javascript:location.href='program.html'">
+                                        <div class="portfolio-hover-main text-center">
+                                            <div class="portfolio-hover-box vertical-align-middle">
+                                                <div class="portfolio-hover-content position-relative">
+                                                    <a href="program.html">
+                                                        <span class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Another Justice</span>
+                                                    </a>
+                                                    <p class="text-medium-gray text-extra-small text-uppercase">3X52''</p>
                                                 </div>
-                                                <figcaption class="bg-white">
-                                                    <div class="portfolio-hover-main text-center">
-                                                        <div class="portfolio-hover-box vertical-align-middle">
-                                                            <div class="portfolio-hover-content position-relative">
-                                                                <a href="#">
-                                                                    <span class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Jack London, an American Adventure</span>
-                                                                </a>
-                                                                <p class="text-medium-gray text-extra-small text-uppercase">2x52' - 90HD</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </figcaption>
-                                            </figure>
-                                        </li>
-                                        <!-- end portfolio item -->
-                                        <!-- start portfolio item -->
-                                        <li class="branding advertising web grid-item wow fadeInUp last-paragraph-no-margin">
-                                            <figure>
-                                                <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
-                                                    <img src="images/kwanza/catalogue/catalogue-index-portfolio-item-01.jpg" alt="" />
-                                                    <div class="portfolio-icon">
-                                                        <a href="program.html">
-                                                            <i class="fa fa-search text-extra-dark-gray" aria-hidden="true"></i>
-                                                        </a>
-                                                        <a href="#">
-                                                            <i class="fa fa-heart text-extra-dark-gray" aria-hidden="true"></i>
-                                                        </a>
-                                                    </div>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <!-- end portfolio item -->
+                            <!-- start portfolio-item item -->
+                            <li class="design web photography grid-item fadeInUp last-paragraph-no-margin" style="position: absolute; left: 79.9577%; top: 413px; visibility: visible; animation-name: fadeInUp;">
+                                <img class="card-hd-label" src="images/kwanza/catalogue/4k.png" data-no-retina="">
+                                <figure>
+                                    <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
+                                        <img src="images/kwanza/homepage/new-releases-01.jpg" alt="" data-no-retina="" onclick="javascript:location.href='program.html'">
+                                        <div class="portfolio-icon">
+                                            <a title="Name of the program" href="program.html">
+                                                <i class="fa fa-info text-extra-dark-gray" aria-hidden="true"></i>
+                                            </a>
+                                            <a href="javascript:void(0);" onclick="favoriteThisMovie(this);" title="Name of the program">
+                                                <i class="fa fa-heart text-extra-dark-gray" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <figcaption class="bg-white caption-hover" onclick="javascript:location.href='program.html'">
+                                        <div class="portfolio-hover-main text-center">
+                                            <div class="portfolio-hover-box vertical-align-middle">
+                                                <div class="portfolio-hover-content position-relative">
+                                                    <a href="program.html">
+                                                        <span class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Another Justice</span>
+                                                    </a>
+                                                    <p class="text-medium-gray text-extra-small text-uppercase">3X52''</p>
                                                 </div>
-                                                <figcaption class="bg-white">
-                                                    <div class="portfolio-hover-main text-center">
-                                                        <div class="portfolio-hover-box vertical-align-middle">
-                                                            <div class="portfolio-hover-content position-relative">
-                                                                <a href="#">
-                                                                    <span class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Jack London, an American Adventure</span>
-                                                                </a>
-                                                                <p class="text-medium-gray text-extra-small text-uppercase">2x52' - 90HD</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </figcaption>
-                                            </figure>
-                                        </li>
-                                        <!-- end portfolio item -->
-                                        <!-- start portfolio item -->
-                                        <li class="branding advertising grid-item wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.2s">
-                                            <img class="card-hd-label" src="images/kwanza/catalogue/hd.png">
-                                            <figure>
-                                                <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
-                                                    <img src="images/kwanza/catalogue/catalogue-index-portfolio-item-01.jpg" alt="" />
-                                                    <div class="portfolio-icon">
-                                                        <a href="program.html">
-                                                            <i class="fa fa-search text-extra-dark-gray" aria-hidden="true"></i>
-                                                        </a>
-                                                        <a href="#">
-                                                            <i class="fa fa-heart text-extra-dark-gray" aria-hidden="true"></i>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                                <figcaption class="bg-white">
-                                                    <div class="portfolio-hover-main text-center">
-                                                        <div class="portfolio-hover-box vertical-align-middle">
-                                                            <div class="portfolio-hover-content position-relative">
-                                                                <a href="#">
-                                                                    <span class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Jack London, an American Adventure</span>
-                                                                </a>
-                                                                <p class="text-medium-gray text-extra-small text-uppercase">2x52' - 90HD</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </figcaption>
-                                            </figure>
-                                        </li>
-                                        <!-- end portfolio item -->
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <!-- end portfolio item -->
+                    
+                    
+                        </ul>
                     </div>
                     <!-- end filter content -->
                 </div>
@@ -613,10 +591,10 @@
                     <!-- start contact information -->
                     <div class="col-md-4 col-sm-6 col-xs-12 widget padding-45px-left sm-padding-15px-left sm-clear-both sm-no-border-right xs-margin-30px-bottom xs-text-center">
                         <div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-10px-bottom font-weight-600">Contact Info</div>
-                        <p class="text-small display-block margin-15px-bottom width-80 xs-center-col">Kwanza Documentary Paris
-                            <br> 40, rue de Paris Boulogne Billancourt, Paris, FRANCE.</p>
+                        <p class="text-small display-block margin-15px-bottom width-80 xs-center-col">Kwanza
+                            <br>40 rue de Paris, 92100, Boulogne-Billancourt</p>
                         <div class="text-small">Email:
-                            <a href="mailto:production@kwanza.com">production@kwanza.com</a>
+                            <a href="mailto:sales@kwanza.com">sales@kwanza.com</a>
                         </div>
                         <div class="text-small">Phone: +33 (0)1 41 22 90 50</div>
                         <a href="#" class="text-small text-uppercase text-decoration-underline">View Direction</a>
