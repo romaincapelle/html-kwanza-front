@@ -1,3 +1,11 @@
 .tab-style2 .tab-content {
     min-height: 500px;
 }
+
+.program-title {
+    font-size: 40px;
+}
+
+.tab-style2 .tab-content {
+    min-height: 270px;
+}
