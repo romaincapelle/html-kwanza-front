@@ -134,9 +134,17 @@
                     </div>
                     <div class="col-md-2 col-xs-5 width-auto">
                         <div class="header-searchbar">
-                            <a href="javascript:void(0);" onclick="openSearchBar(this);" class="header-search-form text-white">
-                                <i class="fa fa-search search-button fa-search-open"></i>
+                            <a href="#search-header" class="header-search-form text-white">
+                                <i class="fa fa-search search-button"></i>
                             </a>
+                            <!-- start search input -->
+                            <form id="search-header" method="post" action="search-result.html" name="search-header" class="mfp-hide search-form-result">
+                                <div class="search-form position-relative">
+                                    <button type="submit" class="fa fa-search close-search search-button"></button>
+                                    <input type="text" name="search" class="search-input" placeholder="Enter your keywords..." autocomplete="off">
+                                </div>
+                            </form>
+                            <!-- end search input -->
                         </div>
                     </div>
                 </div>
@@ -207,6 +215,7 @@
                             <li class="grid-sizer"></li>
                             <!-- start portfolio-item item -->
                             <li class="design web photography grid-item fadeInUp last-paragraph-no-margin" style="position: absolute; left: 0%; top: 0px; visibility: visible; animation-name: fadeInUp;">
+                                <img class="card-hd-label" src="images/kwanza/catalogue/4k.png" data-no-retina="">
                                 <figure>
                                     <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
                                         <img src="images/kwanza/homepage/new-releases-01.jpg" alt="" data-no-retina="" onclick="javascript:location.href='program.html'">
@@ -385,7 +394,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12 text-center margin-80px-bottom sm-margin-80px-bottom xs-margin-50px-bottom margin-40px-top sm-margin-70px-top xs-margin-50px-top xs-margin-15px-lr">
-                    <a href="catalogue.html" target="_blank" class="btn btn-dark-gray btn-small no-margin-lr btn-kwanza-green btn-rounded-kwanza">Go to Catalogue</a>
+                    <a href="catalogue.html" target="_blank" class="btn btn-dark-gray btn-small no-margin-lr btn-kwanza-green btn-rounded-kwanza">View Catalogue</a>
                 </div>
             </div>
         </div>
