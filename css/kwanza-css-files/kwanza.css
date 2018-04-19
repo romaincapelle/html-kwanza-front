@@ -6,6 +6,7 @@
 @import 'components/card-kwanza.css';
 @import 'components/breadcrumb.css';
 @import 'components/titles.css';
+@import 'components/player.css';
 
 /* pages import */
 @import 'pages/homepage.css';

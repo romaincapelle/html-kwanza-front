@@ -64,7 +64,7 @@
             <div class="separator-line-horrizontal-full bg-extra-light-gray margin-30px-bottom margin-30px-top width-100"></div>
             <div class="row">
                 <div class="col-md-6 col-sm-6 col-xs-12 text-left text-small xs-text-center">
-                    <a class="text-extra-dark-gray alt-font text-small font-weight-600 margin-30px-bottom" href="#">Forgot my password?</a>
+                    <a class="text-extra-dark-gray alt-font text-small font-weight-600 margin-30px-bottom" href="password-reset.html">Forgot your password?</a>
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-12 text-right text-small xs-text-center">
                     <a class="text-extra-dark-gray alt-font text-small font-weight-600 margin-30px-bottom" href="signup.html">Create an account</a>
@@ -73,6 +73,32 @@
         </div>
     </form>
     <!-- end login popup -->
+    <!-- start loginpopup-heart-click-attempt popup -->
+    <form id="loginpopup-heart-click-attempt" action="javascript:void(0)" method="post" class="white-popup-block col-md-3 no-padding center-col mfp-hide">
+        <div class="padding-fifteen-all bg-white border-radius-6 md-padding-seven-all">
+            <div class="alert alert-warning alert-dismissable">
+                <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+                You must be loged in, to add this program to your favorite.
+            </div>
+            <div class="text-extra-dark-gray alt-font text-large font-weight-600 margin-30px-bottom text-center">Login</div>
+            <div>
+                <div id="success-contact-form" class="no-margin-lr" style="display: none;"></div>
+                <input type="text" name="email" id="email" placeholder="Login" class="input-bg">
+                <input type="text" name="password" id="subject" placeholder="Password" class="input-bg">
+                <button id="login-button" type="submit" class="btn btn-dark-gray btn-small no-margin-lr btn-kwanza-green btn-rounded-kwanza btn-full-width">Login</button>
+            </div>
+            <div class="separator-line-horrizontal-full bg-extra-light-gray margin-30px-bottom margin-30px-top width-100"></div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12 text-left text-small xs-text-center">
+                    <a class="text-extra-dark-gray alt-font text-small font-weight-600 margin-30px-bottom" href="password-reset.html">Forgot your password?</a>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12 text-right text-small xs-text-center">
+                    <a class="text-extra-dark-gray alt-font text-small font-weight-600 margin-30px-bottom" href="signup.html">Create an account</a>
+                </div>
+            </div>
+        </div>
+    </form>
+    <!-- end loginpopup-heart-click-attempt popup -->
     <!-- start Alert Favorite -->
     <div class="alert alert-success alert-dismissable alert-favorite hidden text-center">
         <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
@@ -244,7 +270,7 @@
                 </div>
             </div>
             <div class="row margin-20px-bottom">
-                <div class="col-md-10 col-sm-12 center-col">
+                <div class="col-md-10 col-sm-12 center-col col-md-6 center-col">
                     <!-- start accordion -->
                     <div class="panel-group accordion-style1" id="accordion-design">
                         <!-- start accordion item -->
@@ -260,16 +286,17 @@
                             </div>
                             <div id="design1" class="panel-collapse collapse" aria-expanded="false" role="tablist" style="height: 0px;">
                                 <div class="panel-body">
-                                    <div class="col-md-6 center-col">
-                                        <div class="select-style big-select">
-                                            <select name="budget" id="budget" class="bg-transparent no-margin-bottom">
-                                                <option value="">Language</option>
+                                    <div class="col-md-3 center-col text-small">
+                                        <div class="select-style medium-select">
+                                            <select style="font-size: 12px;" name="budget" id="budget" class="bg-transparent no-margin-bottom alt-font font-weight-600 text-extra-dark-gray medium-input">
+                                                <option  class="alt-font font-weight-600 text-extra-dark-gray" value="">LANGUAGE:</option>
                                                 <option value="english">English</option>
                                                 <option value="french">French</option>
                                                 <option value="russian">Russian</option>
                                             </select>
                                         </div>
                                     </div>
+                                    <div class="separator-line-horrizontal-full bg-extra-light-gray margin-15px-top height-1px width-40 center-col"></div>
                                 </div>
                                 <div class="panel-body">
                                     <div class="col-md-12">
@@ -280,10 +307,10 @@
                                                         <span class="alt-font font-weight-600 text-extra-dark-gray margin-5px-bottom">Definition:</span>
                                                     </li>
                                                     <li class="nav">
-                                                        <a href="javascript:void(0);" data-filter=".arts" class="xs-display-inline light-gray-text-link text-very-small">HD</a>
+                                                        <a href="javascript:void(0);" data-filter=".hd" class="xs-display-inline light-gray-text-link text-very-small">HD</a>
                                                     </li>
                                                     <li class="nav">
-                                                        <a href="javascript:void(0);" data-filter=".arts" class="xs-display-inline light-gray-text-link text-very-small">4K</a>
+                                                        <a href="javascript:void(0);" data-filter=".4k" class="xs-display-inline light-gray-text-link text-very-small">4K</a>
                                                     </li>
                                                 </ul>
                                                 <div class="separator-line-horrizontal-full bg-extra-light-gray margin-15px-top height-1px width-40 center-col"></div>
@@ -300,16 +327,16 @@
                                                         <span class="alt-font font-weight-600 text-extra-dark-gray margin-5px-bottom">Duration:</span>
                                                     </li>
                                                     <li class="nav">
-                                                        <a href="javascript:void(0);" data-filter=".arts" class="xs-display-inline light-gray-text-link text-very-small">26'</a>
+                                                        <a href="javascript:void(0);" data-filter=".26" class="xs-display-inline light-gray-text-link text-very-small">26'</a>
                                                     </li>
                                                     <li class="nav">
-                                                        <a href="javascript:void(0);" data-filter=".arts" class="xs-display-inline light-gray-text-link text-very-small">52'</a>
+                                                        <a href="javascript:void(0);" data-filter=".52" class="xs-display-inline light-gray-text-link text-very-small">52'</a>
                                                     </li>
                                                     <li class="nav">
-                                                        <a href="javascript:void(0);" data-filter=".arts" class="xs-display-inline light-gray-text-link text-very-small">Short</a>
+                                                        <a href="javascript:void(0);" data-filter=".short" class="xs-display-inline light-gray-text-link text-very-small">Short</a>
                                                     </li>
                                                     <li class="nav">
-                                                        <a href="javascript:void(0);" data-filter=".arts" class="xs-display-inline light-gray-text-link text-very-small">Feature Length</a>
+                                                        <a href="javascript:void(0);" data-filter=".featurelength" class="xs-display-inline light-gray-text-link text-very-small">Feature Length</a>
                                                     </li>
                                                 </ul>
                                                 <div class="separator-line-horrizontal-full bg-extra-light-gray margin-15px-top height-1px width-40 center-col"></div>
@@ -326,10 +353,10 @@
                                                         <span class="alt-font font-weight-600 text-extra-dark-gray margin-5px-bottom">Type:</span>
                                                     </li>
                                                     <li class="nav">
-                                                        <a href="javascript:void(0);" data-filter=".arts" class="xs-display-inline light-gray-text-link text-very-small">Series</a>
+                                                        <a href="javascript:void(0);" data-filter=".series" class="xs-display-inline light-gray-text-link text-very-small">Series</a>
                                                     </li>
                                                     <li class="nav">
-                                                        <a href="javascript:void(0);" data-filter=".arts" class="xs-display-inline light-gray-text-link text-very-small">One-offs</a>
+                                                        <a href="javascript:void(0);" data-filter=".oneoff" class="xs-display-inline light-gray-text-link text-very-small">One-offs</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -350,10 +377,40 @@
             <div class="row">
                 <div class="col-md-12 no-padding xs-padding-15px-lr">
                     <div class="filter-content overflow-hidden">
-                        <ul class="portfolio-grid work-5col gutter-medium hover-option6 lightbox-portfolio">
+                        <ul class="portfolio-grid work-6col gutter-medium hover-option6 lightbox-portfolio">
                             <li class="grid-sizer"></li>
-                            <!-- start portfolio-item item -->
-                            <li class="design web photography grid-item fadeInUp last-paragraph-no-margin" style="position: absolute; left: 0%; top: 0px; visibility: visible; animation-name: fadeInUp;">
+                            <!-- start portfolio-item -->
+                            <li class="4K grid-item fadeInUp last-paragraph-no-margin" style="position: absolute; left: 0%; top: 0px; visibility: visible; animation-name: fadeInUp;">
+                                <img class="card-hd-label" src="images/kwanza/catalogue/4k.png" />
+                                <figure>
+                                    <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
+                                        <img src="images/kwanza/homepage/new-releases-01.jpg" alt="" data-no-retina="" onclick="javascript:location.href='program.html'">
+                                        <div class="portfolio-icon">
+                                            <a title="Name of the program" href="program.html">
+                                                <i class="fa fa-info text-extra-dark-gray" aria-hidden="true"></i>
+                                            </a>
+                                            <a href="#loginpopup-heart-click-attempt" class="popup-with-form" title="Name of the program">
+                                                <i class="fa fa-heart text-extra-dark-gray" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <figcaption class="bg-white caption-hover" onclick="javascript:location.href='program.html'">
+                                        <div class="portfolio-hover-main text-center">
+                                            <div class="portfolio-hover-box vertical-align-middle">
+                                                <div class="portfolio-hover-content position-relative">
+                                                    <a href="program.html">
+                                                        <span class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Another Justice</span>
+                                                    </a>
+                                                    <p class="text-medium-gray text-extra-small text-uppercase">3X52''</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <!-- end portfolio item -->
+                            <!-- start portfolio-item -->
+                            <li class="megastructures hd 26 grid-item fadeInUp last-paragraph-no-margin" style="position: absolute; left: 0%; top: 0px; visibility: visible; animation-name: fadeInUp;">
                                 <img class="card-hd-label" src="images/kwanza/catalogue/4k.png" />
                                 <figure>
                                     <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
@@ -382,8 +439,8 @@
                                 </figure>
                             </li>
                             <!-- end portfolio item -->
-                            <!-- start portfolio-item item -->
-                            <li class="design web photography grid-item fadeInUp last-paragraph-no-margin" style="position: absolute; left: 0%; top: 0px; visibility: visible; animation-name: fadeInUp;">
+                            <!-- start portfolio-item -->
+                            <li class="megastructures 4K discovery grid-item fadeInUp last-paragraph-no-margin" style="position: absolute; left: 0%; top: 0px; visibility: visible; animation-name: fadeInUp;">
                                 <img class="card-hd-label" src="images/kwanza/catalogue/4k.png" />
                                 <figure>
                                     <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
@@ -412,8 +469,8 @@
                                 </figure>
                             </li>
                             <!-- end portfolio item -->
-                            <!-- start portfolio-item item -->
-                            <li class="design web photography grid-item fadeInUp last-paragraph-no-margin" style="position: absolute; left: 0%; top: 0px; visibility: visible; animation-name: fadeInUp;">
+                            <!-- start portfolio-item -->
+                            <li class="hd short grid-item fadeInUp last-paragraph-no-margin" style="position: absolute; left: 0%; top: 0px; visibility: visible; animation-name: fadeInUp;">
                                 <img class="card-hd-label" src="images/kwanza/catalogue/4k.png" />
                                 <figure>
                                     <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
@@ -442,8 +499,8 @@
                                 </figure>
                             </li>
                             <!-- end portfolio item -->
-                            <!-- start portfolio-item item -->
-                            <li class="design web photography grid-item fadeInUp last-paragraph-no-margin" style="position: absolute; left: 0%; top: 0px; visibility: visible; animation-name: fadeInUp;">
+                            <!-- start portfolio-item -->
+                            <li class="hd featurelength oneoff grid-item fadeInUp last-paragraph-no-margin" style="position: absolute; left: 0%; top: 0px; visibility: visible; animation-name: fadeInUp;">
                                 <img class="card-hd-label" src="images/kwanza/catalogue/4k.png" />
                                 <figure>
                                     <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
@@ -472,8 +529,8 @@
                                 </figure>
                             </li>
                             <!-- end portfolio item -->
-                            <!-- start portfolio-item item -->
-                            <li class="design web photography grid-item fadeInUp last-paragraph-no-margin" style="position: absolute; left: 0%; top: 0px; visibility: visible; animation-name: fadeInUp;">
+                            <!-- start portfolio-item -->
+                            <li class="hd featurelength series grid-item fadeInUp last-paragraph-no-margin" style="position: absolute; left: 0%; top: 0px; visibility: visible; animation-name: fadeInUp;">
                                 <img class="card-hd-label" src="images/kwanza/catalogue/4k.png" />
                                 <figure>
                                     <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
@@ -502,8 +559,8 @@
                                 </figure>
                             </li>
                             <!-- end portfolio item -->
-                            <!-- start portfolio-item item -->
-                            <li class="design web photography grid-item fadeInUp last-paragraph-no-margin" style="position: absolute; left: 0%; top: 0px; visibility: visible; animation-name: fadeInUp;">
+                            <!-- start portfolio-item -->
+                            <li class="hd 52 grid-item fadeInUp last-paragraph-no-margin" style="position: absolute; left: 0%; top: 0px; visibility: visible; animation-name: fadeInUp;">
                                 <img class="card-hd-label" src="images/kwanza/catalogue/4k.png" />
                                 <figure>
                                     <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
@@ -532,8 +589,8 @@
                                 </figure>
                             </li>
                             <!-- end portfolio item -->
-                            <!-- start portfolio-item item -->
-                            <li class="design web photography grid-item fadeInUp last-paragraph-no-margin" style="position: absolute; left: 0%; top: 0px; visibility: visible; animation-name: fadeInUp;">
+                            <!-- start portfolio-item -->
+                            <li class="nature hd 26 grid-item fadeInUp last-paragraph-no-margin" style="position: absolute; left: 0%; top: 0px; visibility: visible; animation-name: fadeInUp;">
                                 <img class="card-hd-label" src="images/kwanza/catalogue/4k.png" />
                                 <figure>
                                     <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
@@ -562,8 +619,8 @@
                                 </figure>
                             </li>
                             <!-- end portfolio item -->
-                            <!-- start portfolio-item item -->
-                            <li class="design web photography grid-item fadeInUp last-paragraph-no-margin" style="position: absolute; left: 0%; top: 0px; visibility: visible; animation-name: fadeInUp;">
+                            <!-- start portfolio-item -->
+                            <li class="nature hd 26 grid-item fadeInUp last-paragraph-no-margin" style="position: absolute; left: 0%; top: 0px; visibility: visible; animation-name: fadeInUp;">
                                 <img class="card-hd-label" src="images/kwanza/catalogue/4k.png" />
                                 <figure>
                                     <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
@@ -592,38 +649,8 @@
                                 </figure>
                             </li>
                             <!-- end portfolio item -->
-                            <!-- start portfolio-item item -->
-                            <li class="design web photography grid-item fadeInUp last-paragraph-no-margin" style="position: absolute; left: 0%; top: 0px; visibility: visible; animation-name: fadeInUp;">
-                                <img class="card-hd-label" src="images/kwanza/catalogue/4k.png" />
-                                <figure>
-                                    <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
-                                        <img src="images/kwanza/homepage/new-releases-01.jpg" alt="" data-no-retina="" onclick="javascript:location.href='program.html'">
-                                        <div class="portfolio-icon">
-                                            <a title="Name of the program" href="program.html">
-                                                <i class="fa fa-info text-extra-dark-gray" aria-hidden="true"></i>
-                                            </a>
-                                            <a href="javascript:void(0);" onclick="favoriteThisMovie(this);" title="Name of the program">
-                                                <i class="fa fa-heart text-extra-dark-gray" aria-hidden="true"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <figcaption class="bg-white caption-hover" onclick="javascript:location.href='program.html'">
-                                        <div class="portfolio-hover-main text-center">
-                                            <div class="portfolio-hover-box vertical-align-middle">
-                                                <div class="portfolio-hover-content position-relative">
-                                                    <a href="program.html">
-                                                        <span class="line-height-normal font-weight-600 text-small alt-font margin-5px-bottom text-extra-dark-gray text-uppercase display-block">Another Justice</span>
-                                                    </a>
-                                                    <p class="text-medium-gray text-extra-small text-uppercase">3X52''</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </figcaption>
-                                </figure>
-                            </li>
-                            <!-- end portfolio item -->
-                            <!-- start portfolio-item item -->
-                            <li class="design web photography grid-item fadeInUp last-paragraph-no-margin" style="position: absolute; left: 0%; top: 0px; visibility: visible; animation-name: fadeInUp;">
+                            <!-- start portfolio-item -->
+                            <li class="nature hd 26 grid-item fadeInUp last-paragraph-no-margin" style="position: absolute; left: 0%; top: 0px; visibility: visible; animation-name: fadeInUp;">
                                 <img class="card-hd-label" src="images/kwanza/catalogue/4k.png" />
                                 <figure>
                                     <div class="portfolio-img bg-deep-pink position-relative text-center overflow-hidden">
@@ -668,7 +695,7 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12 center-col position-relative text-center">
                     <span class="text-extra-large text-white alt-font display-inline-block margin-5px-top margin-30px-right xs-no-margin-right xs-no-margin-top xs-margin-15px-bottom xs-width-100">Spot anything you like? Get in touch!</span>
-                    <a href="javascript:void(0);" class="btn btn-white btn-medium vertical-align-top xs-no-margin-right btn-rounded-kwanza">Contact us
+                    <a href="contact.html" class="btn btn-white btn-medium vertical-align-top xs-no-margin-right btn-rounded-kwanza">Contact us
                         <i class="fa fa-arrow-right"></i>
                     </a>
                 </div>
@@ -737,7 +764,7 @@
                     <div class="col-md-4 col-sm-6 col-xs-12 widget padding-45px-left sm-padding-15px-left sm-clear-both sm-no-border-right xs-margin-30px-bottom xs-text-center">
                         <div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-10px-bottom font-weight-600">Contact Info</div>
                         <p class="text-small display-block margin-15px-bottom width-80 xs-center-col">Kwanza
-                            <br>40 rue de Paris, 92100, Boulogne-Billancourt</p>
+                            <br>40 rue de Paris</br>92100 Boulogne-Billancourt FRANCE</p>
                         <div class="text-small">Email:
                             <a href="mailto:sales@kwanza.com">sales@kwanza.com</a>
                         </div>
@@ -768,12 +795,12 @@
             <div class="container">
                 <div class="row">
                     <!-- start copyright -->
-                    <div class="col-md-6 col-sm-6 col-xs-12 text-left text-small xs-text-center">Kwanza.fr - Front and designed by
+                    <div class="col-md-6 col-sm-6 col-xs-12 text-left text-small xs-text-center">Kwanza.fr - Design and Front-end by
                         <a href="http://www.romaincapelle.com" target="_blank" class="text-dark-gray footer-link-kwanza">RomainCapelle.com</a> - Development by
                         <a href="http://www.i2ic.com" target="_blank" class="text-dark-gray footer-link-kwanza">i2ic.com</a>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12 text-right text-small xs-text-center">
-                        <a href="termandcondition.html" class="text-dark-gray footer-link-kwanza">Term and Condition</a>
+                        <a href="termsandcondition.html" class="text-dark-gray footer-link-kwanza">Terms and Condition</a>
 
                     </div>
                     <!-- end copyright -->
