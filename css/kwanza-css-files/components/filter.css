@@ -2,3 +2,9 @@
     border-top: 0;
     padding: 15px 0;
 }
+
+.accordion-style1 .panel-heading i {
+    font-size: 16px;
+    color: black;
+    font-weight: 800;
+}
