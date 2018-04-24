@@ -12,6 +12,7 @@
 @import 'pages/homepage.css';
 @import 'pages/catalog.css';
 @import 'pages/program.css';
+@import 'pages/account-favorites.css';
 
 /* misc */
 body {

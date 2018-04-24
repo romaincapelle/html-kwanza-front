@@ -21,6 +21,18 @@
     color:#bdd62e !important; 
 }
 
+.btn-kwanza-red {
+    background-color: #a94442 !important;
+    border-color: #a94442 !important; 
+    color: white
+}
+
+.btn-kwanza-red:hover {
+    background-color: white !important; 
+    border-color: #a94442 !important; 
+    color:#a94442 !important; 
+}
+
 .btn-topbar {
     padding: 0px 18px!important;
 }
