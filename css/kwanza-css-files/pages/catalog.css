@@ -3,7 +3,7 @@
 }
 
 .program-liked {
-    color: #c50000;
+    color: #a94442;
 }
 
 .alert-favorite {
@@ -16,4 +16,8 @@
 
 .portfolio-filter-tab-1 li {
     margin: 0 20px;
+}
+
+.filter-content:hover {
+    cursor: pointer !important;
 }
