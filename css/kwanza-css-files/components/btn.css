@@ -49,6 +49,7 @@
     color: #a94442
 }
 
-.green-text-link {
-    color: #bdd62e
+.green-text-link:hover {
+    color: #bdd62e;
+    text-decoration: underline;
 }
