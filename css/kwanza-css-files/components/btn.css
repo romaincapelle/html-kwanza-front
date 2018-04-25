@@ -45,11 +45,10 @@
     width: 100%;
 }
 
-.red-text-link {
+.red-text-link-on-hover:hover {
     color: #a94442
 }
 
 .green-text-link:hover {
     color: #bdd62e;
-    text-decoration: underline;
 }
