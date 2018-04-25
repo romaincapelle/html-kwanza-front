@@ -14,6 +14,15 @@
 @import 'pages/program.css';
 @import 'pages/account-favorites.css';
 
+/* heading */
+h1, h2, h3, h4, h5, h6 {margin:0 0 25px; padding:0; letter-spacing: 0; font-weight: 400;}
+h1 {font-size:50px; line-height: 50px;}
+h2 {font-size:35px; line-height:40px}
+h3 {font-size:30px; line-height:30px}
+h4 {font-size:30px; line-height:36px}
+h5 {font-size:22px; line-height:30px}
+h6 {font-size:15px; line-height:2   0px}
+
 /* misc */
 body {
     background-color: #f7f7f7;
