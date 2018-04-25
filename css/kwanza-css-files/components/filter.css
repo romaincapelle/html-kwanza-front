@@ -12,3 +12,11 @@
 /* .select-style {
     border: 0px solid #d1d1d1 !important;
 } */
+
+.portfolio-filter-tab-1 li {
+    margin: 5px 20px;
+}
+
+.portfolio-filter-tab-1 li a {
+    line-height: 35px;
+}
