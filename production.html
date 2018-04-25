@@ -260,15 +260,22 @@
                             <div id="design1" class="panel-collapse collapse" aria-expanded="false" role="tablist" style="height: 0px;">
                                 <div class="panel-body">
                                     <div class="col-md-3 center-col text-small">
-                                        <div class="select-style medium-select">
-                                            <select style="font-size: 12px;" name="budget" id="budget" class="bg-transparent no-margin-bottom alt-font font-weight-600 text-extra-dark-gray medium-input">
-                                                <option class="alt-font font-weight-600 text-extra-dark-gray" value="">LANGUAGE:</option>
-                                                <option value="english">English</option>
-                                                <option value="french">French</option>
-                                                <option value="russian">Russian</option>
-                                                <option value="all">All</option>
-                                            </select>
-                                        </div>
+                                        <table style="border:0px;margin-bottom:0px;">
+                                            <tr>
+                                                <td style="padding-bottom:15px; padding-right:15px">
+                                                    <span class="alt-font font-weight-600 text-extra-dark-gray">LANGUAGE:</td>
+                                                <td>
+                                                    <div class="select-style medium-select">
+                                                        <select style="font-size: 12px; min-width: 100px;" name="budget" id="budget" class="bg-transparent no-margin-bottom alt-font font-weight-600 text-extra-dark-gray medium-input">
+                                                            <option value="english">All</option>
+                                                            <option value="english">English</option>
+                                                            <option value="french">French</option>
+                                                            <option value="russian">Russian</option>
+                                                        </select>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
                                     </div>
                                     <div class="separator-line-horrizontal-full bg-extra-light-gray margin-15px-top height-1px width-40 center-col"></div>
                                 </div>
@@ -351,7 +358,7 @@
             <div class="row">
                 <div class="col-md-12 no-padding xs-padding-15px-lr">
                     <div class="filter-content overflow-hidden">
-                        <ul class="portfolio-grid work-6col gutter-medium hover-option6 lightbox-portfolio">
+                        <ul class="portfolio-grid work-5col gutter-medium hover-option6 lightbox-portfolio">
                             <li class="grid-sizer"></li>
                             <!-- start portfolio-item -->
                             <li class="4K grid-item fadeInUp last-paragraph-no-margin" style="position: absolute; left: 0%; top: 0px; visibility: visible; animation-name: fadeInUp;">
@@ -777,7 +784,7 @@
                             </li>
                             <li>
                                 <a class="facebook text-white" href="https://www.facebook.com/" target="_blank">
-                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    <i class="fa fa-facebook margin-15px-lr" aria-hidden="true"></i>
                                 </a>
                             </li>
                         </ul>
