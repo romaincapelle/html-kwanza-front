@@ -5,3 +5,7 @@
 .padding-left-10 {
     padding-left: 10px;
 }
+
+.fa-times {
+    cursor: pointer;
+}
