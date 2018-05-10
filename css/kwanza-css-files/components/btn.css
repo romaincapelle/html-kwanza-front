@@ -1,5 +1,5 @@
 .btn-invert-kwanza {
-    background-color: white !important; 
+    background-color: white !important;
     border-color: #bdd62e !important;
     color: #bdd62e !important;
 }
@@ -12,25 +12,25 @@
 
 .btn-kwanza-green {
     background-color: #bdd62e !important;
-    border-color: #bdd62e !important; 
+    border-color: #bdd62e !important;
 }
 
 .btn-kwanza-green:hover {
-    background-color: white !important; 
-    border-color: #bdd62e !important; 
-    color:#bdd62e !important; 
+    background-color: white !important;
+    border-color: #bdd62e !important;
+    color:#bdd62e !important;
 }
 
 .btn-kwanza-red {
     background-color: #a94442 !important;
-    border-color: #a94442 !important; 
+    border-color: #a94442 !important;
     color: white
 }
 
 .btn-kwanza-red:hover {
-    background-color: white !important; 
-    border-color: #a94442 !important; 
-    color:#a94442 !important; 
+    background-color: white !important;
+    border-color: #a94442 !important;
+    color:#a94442 !important;
 }
 
 .btn-topbar {
@@ -52,4 +52,9 @@
 .green-text-link:hover {
     color: #bdd62e;
     text-decoration: underline;
+}
+
+.btn-spacing-10 {
+  margin-left: 10px;
+  margin-right: 10px;
 }
