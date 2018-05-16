@@ -8,6 +8,9 @@
 @import 'components/titles.css';
 @import 'components/player.css';
 
+/* Responsiveness import */
+@import 'responsiveness/responsive.css';
+
 /* pages import */
 @import 'pages/homepage.css';
 @import 'pages/catalog.css';
